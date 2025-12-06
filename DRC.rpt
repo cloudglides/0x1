@@ -1,0 +1,50 @@
+** Drc report for macropad.kicad_pcb **
+** Created on 2025-12-07T00:01:11+0530 **
+
+** Found 11 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(175.0000 mm, 35.1900 mm): Rectangle on Edge.Cuts
+    @(193.6250 mm, 35.1790 mm): Segment of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(175.0000 mm, 35.1900 mm): Rectangle on Edge.Cuts
+    @(202.6240 mm, 34.2690 mm): Segment of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(175.0000 mm, 35.1900 mm): Rectangle on Edge.Cuts
+    @(205.1050 mm, 35.1790 mm): Segment of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(175.0000 mm, 35.1900 mm): Rectangle on Edge.Cuts
+    @(205.1050 mm, 35.1790 mm): Segment of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(175.0000 mm, 35.1900 mm): Rectangle on Edge.Cuts
+    @(191.1350 mm, 37.0840 mm): Arc of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(175.0000 mm, 35.1900 mm): Rectangle on Edge.Cuts
+    @(205.1050 mm, 37.0840 mm): Arc of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(175.0000 mm, 35.1900 mm): Rectangle on Edge.Cuts
+    @(189.1700 mm, 35.4200 mm): Circle of U1 on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)
+    Rule: board setup constraints silk text height; warning
+    @(189.6200 mm, 33.7200 mm): Reference field of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(189.2300 mm, 54.2290 mm): Segment of U1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(207.0100 mm, 54.2290 mm): Segment of U1 on F.Silkscreen
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(193.0400 mm, 38.6100 mm): PCB text 'CLOUD :3' on B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
